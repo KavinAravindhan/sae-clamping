@@ -7,8 +7,6 @@ The goal is to understand when internal representations appear stable and interp
 **Authors:**  
 Kavin Aravindhan Rajkumar, Venkat Venkatasubramanian
 
----
-
 ## How to Run
 
 ### Linux / macOS
@@ -25,8 +23,6 @@ docker run -dit --gpus=all --name=cris_lab --ipc="host" \
   -v "C:\Users\venka\Documents\Venkat's Documents\Columbia\Research Work\CRIS Lab\SAE_Clamping:/cris_lab" \
   -w /cris_lab -e CUDA_LAUNCH_BLOCKING=1 venkatsbitra/sae_clamping:latest
 ```
-
----
 
 ## Notes
 
