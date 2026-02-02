@@ -1,0 +1,5 @@
+## How to run
+
+docker run -dit --gpus=all --name=cris_lab --ipc="host" -v /home/venkatsb/cris_lab/SAE_Clamping:/cris_lab -w /cris_lab venkatsbitra/sae_clamping:latest
+
+docker run -dit --gpus=all --name=cris_lab --ipc="host" -v "C:\Users\venka\Documents\Venkat's Documents\Columbia\Research Work\CRIS Lab\SAE_Clamping:/cris_lab" -w /cris_lab -e CUDA_LAUNCH_BLOCKING=1 venkatsbitra/sae_clamping:latest
